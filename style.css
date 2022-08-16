@@ -1,0 +1,66 @@
+body{
+    background-image: url("b.jpg");
+    font-family:Georgia ;
+     color: rgb(148, 148, 219);
+}
+h1{
+    font-family: Georgia;
+    color:rgb(218, 134, 134) ;
+    text-align: center;
+    word-wrap: 10px;
+}
+h2{
+    font-size: 25px;
+    color:grey;
+
+}
+h3{
+    color: rgb(218, 134, 134);
+    font-size: 21px;
+   
+
+}
+.header{
+   
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    color: aqua;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+
+}
+.comp1{
+    display: flex;
+    color: greenyellow;
+    font-size: 12px;
+    gap: 250px;
+    row-gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    color: aquamarine;
+    justify-content: flex-start;
+    text-align: right;
+    align-items: center;
+}
+h5{
+    font-size: 25px;
+    color:aquamarine;
+    text-align: left;
+}
+p{
+    font-size: 27px;
+    
+}
+.footer{
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
